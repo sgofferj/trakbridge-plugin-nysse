@@ -1,0 +1,11 @@
+id: nysse
+name: Nysse Plugin
+version: "0.1.0"
+entry_point: plugin/nysse.py
+class_name: NyssePlugin
+description: "Nysse (Tampere regional transport) real-time bus tracking"
+icon: "fas fa-bus"
+author: Stefan Gofferje
+plugin_type: gps
+tier: community
+min_trakbridge_version: "2.0.0"
