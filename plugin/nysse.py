@@ -54,7 +54,7 @@ class NyssePlugin(BaseGPSPlugin):  # type: ignore[misc]
             "(Tampere regional transport)",
             "icon": "fas fa-bus",
             "category": "custom",
-            "min_poll_interval": 3,
+            "min_poll_interval": 1,
             "hide_cot_type": True,
             "config_fields": [
                 PluginConfigField(
