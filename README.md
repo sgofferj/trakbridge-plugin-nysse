@@ -27,6 +27,10 @@ Licensed under the Gnu General Public License Version 3 or higher.
 
 ## Changelog
 
+### 0.1.1
+- Lowered minimum poll interval to 1s.
+- Fixed CoT type to `a-f-G-E-V-C-M-H` (multi-passenger vehicle, large bus).
+
 ### 0.1.0
 - Initial release.
 - Vehicle activity polling with wildcard line filtering.
