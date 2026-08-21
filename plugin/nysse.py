@@ -26,7 +26,7 @@ logger = get_module_logger(__name__)
 
 NYSSE_API_URL = "https://data.itsfactory.fi/journeys/api/1"
 
-COT_TYPE_BUS = "a-f-G-E-V-C-M"
+COT_TYPE_BUS = "a-f-G-E-V-C-M-H"
 
 
 class NyssePlugin(BaseGPSPlugin):  # type: ignore[misc]

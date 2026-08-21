@@ -27,7 +27,7 @@ def test_matches_filter_wildcard():
 
 
 def test_cot_type_and_api_url():
-    assert COT_TYPE_BUS == "a-f-G-E-V-C-M"
+    assert COT_TYPE_BUS == "a-f-G-E-V-C-M-H"
     assert NYSSE_API_URL == "https://data.itsfactory.fi/journeys/api/1"
 
 
@@ -67,5 +67,5 @@ def test_process_vehicle_location():
     assert result["lon"] == 23.761
     assert result["speed"] == 10.0
     assert result["course"] == 90.0
-    assert result["cot_type"] == "a-f-G-E-V-C-M"
+    assert result["cot_type"] == "a-f-G-E-V-C-M-H"
     assert "#NYSSE" in result["description"]
